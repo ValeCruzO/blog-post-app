@@ -1,0 +1,54 @@
+.new-blog-post-container {
+    width: 100%;
+    max-width: 32rem;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .form-label {
+    display: block;
+    text-transform: uppercase;
+    color: #4a5568;
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-input {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    color: #4a5568;
+    line-height: 1.5;
+    &:focus {
+      outline: none;
+      color: #4a5568;
+    }
+  }
+  
+  .submit-btn, .cancel-btn{
+    background-color: #48bb78;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    &:hover {
+        opacity: 0.9;
+      }
+  }
+
+  .submit-btn{
+    background-color: #47D7AC;
+    margin-top: .5rem;
+  }
+
+  .cancel-btn{
+    background-color: #F97586;
+    margin-top: .1rem;
+  }
+  

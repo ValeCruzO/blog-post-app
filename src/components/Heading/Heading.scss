@@ -1,0 +1,46 @@
+.heading-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px 0 10px 0;
+    background-color: #13294B;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: auto;
+  }
+  
+  .heading-title h5 {
+    font-weight: 600; 
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+  }
+
+  .heading-action .new-btn {
+    background-color: #47D7AC; 
+    color: #ffffff;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+        opacity: 0.9;
+    }
+  }
+
+  .blog-btn {
+    background-color: #13294B; 
+    color: #ffffff;
+    padding: 16px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
